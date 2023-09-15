@@ -1,0 +1,21 @@
+{
+	"Name": "Villager Vignettes - Lewis",
+	"Author": "AetherianArtificer",
+	"Version": "1.0.0",
+	"Description": "Anime style portraits for Lewis, the mayor of Pelican Town.",
+	"UniqueID": "AetherianArtificer.VillagerVignettes.Lewis",
+	"UpdateKeys": [ "16499" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "tlitookilakin.HDPortraits",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "Poltergeister.SeasonalCuteCharacters",
+			"IsRequired": false
+		},
+	],
+}

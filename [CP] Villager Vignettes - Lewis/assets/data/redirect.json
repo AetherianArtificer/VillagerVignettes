@@ -1,0 +1,33 @@
+{
+  "Changes": [
+    {       
+      "Action": "Load",
+      "Target": "Mods/VillagerVignettes/Lewis",
+      "FromFile": "assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_{{Season}}.png",
+      "When": {
+        "Season |contains=winter": "false"
+      }
+    },
+    {       
+      "Action": "Load",
+      "Target": "Mods/VillagerVignettes/Lewis",
+      "FromFile": "assets/Portraits/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Winter_{{IndoorVariant}}.png",
+      "Update": "OnLocationChange",
+      "When": {
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Lewis",
+      "FromFile": "assets/data/size.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Lewis",
+      "Entries": {
+        "Portrait": "Mods/VillagerVignettes/{{TargetWithoutPath}}"
+      }
+    }
+  ]
+}
